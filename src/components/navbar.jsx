@@ -1,20 +1,21 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
 import {
-  Nav, NavDropdown, Navbar, Container,
+  Nav, NavDropdown, Navbar, Container,FormControl, Form, Button
 } from 'react-bootstrap';
 
 export default function Mynavbar() {
   return (
     <Navbar bg="light" expand="lg">
         <Container>
-            <Navbar.Brand href="#home">PLAAAANTS</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'>PLAAAANTS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                
-                <Nav.Link as={Link} to='cat'>Cat</Nav.Link>
-                <Nav.Link to='cat'>Link</Nav.Link>
+                <Nav.Link as={Link} to='about'>About</Nav.Link>
+                <Nav.Link as={Link} to='social'>Social Media</Nav.Link>
+                <Nav.Link as={Link} to='plants'>Plant Database</Nav.Link>
+               
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -23,6 +24,15 @@ export default function Mynavbar() {
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
+            <Form className="d-flex">
+              <FormControl
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
             </Navbar.Collapse>
         </Container>
     </Navbar>
