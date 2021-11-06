@@ -1,9 +1,14 @@
 import React from 'react';
 import './about.css';
+import logo from './logoplant.png';
 
 export default function About() {
    return (
       <div>
+         <div class="title">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h1>Welcome to the Savoury Shrubs website!</h1>
+         </div>
          <h2>ABOUT US</h2>
          <p>We are a collaborative created to help people find sources for food by foraging! 
              Foraging is a resourceful and sustainable way to live but information on what is safe to eat can 

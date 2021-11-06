@@ -1,9 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+
+.title {
+    height: 95vh;
+    vertical-align: middle;
+}
+
+h1 {
+    color: white;
+    font-family: 'Dancing Script', cursive; 
+    width: 55%;
+    margin: auto;
+    font-size: 10vh;
+}
 
 h2 {
     color: white;
-    background-color: #1F2D16;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     font-family: 'Roboto', sans-serif; 
     font-size: 70px;
