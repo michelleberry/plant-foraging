@@ -3,11 +3,13 @@
     display: flex;
     flex-direction: column;
     margin: 100px;
+    color: aliceblue;
 }
 
 .h1-nice {
     margin: 50px;
     align-items: left;
+    color:aliceblue;
 }
 
 body {

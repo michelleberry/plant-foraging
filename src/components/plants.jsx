@@ -1,13 +1,23 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap'
+import { Form, Button, Card } from 'react-bootstrap'
+import{Link} from 'react-router-dom';
 import { Plant, standard_plants } from '../models/plant-model';
 import './plant.css'
 
 function DisplayPlants() {
    return standard_plants.map(plant => {
       return (
-           <div className='projects-grid'>
-               <p>{plant.name}</p>
+           <div class='container'>
+               <Card style={{ width: '18rem' }}>
+                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                  <Card.Body>
+                     <Card.Title>{plant.name}</Card.Title>
+                     <Card.Text>
+                        {plant.description}
+                     </Card.Text>
+                     <Button as={Link} to='plantdetail:29' variant="primary">Learn More</Button>
+                  </Card.Body>
+               </Card>
            </div>
       )
    });
@@ -16,7 +26,7 @@ function DisplayPlants() {
 export default function Plants() {
    return (
       <div className="color-div">
-         <h2 className="h1-nice">Plant Foraging Database</h2>
+         <h2 className="h1-nice">PLANT FORAGING DATABASE</h2>
          <Form>
             <Form.Group className="color-form">
                <Form.Label>Enter your Location:</Form.Label>

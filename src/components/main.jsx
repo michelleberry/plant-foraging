@@ -5,6 +5,7 @@ import Home from './home.jsx';
 import Socials from './socials.jsx';
 import Plants from './plants.jsx';
 import About from './about.jsx';
+import PlantDetail from './plantdetail.jsx'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <Route exact path='/social' element={<Socials/>}></Route>
       <Route exact path='/about' element={<About/>}></Route>
       <Route exact path='/plants' element={<Plants/>}></Route>
+      <Route exact path='/plantdetail:id' element={<PlantDetail/>}></Route>
     </Routes>
   );
 }
