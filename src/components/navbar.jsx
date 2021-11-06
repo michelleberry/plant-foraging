@@ -1,6 +1,7 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
 import logo from './logo.png';
+import './navbar.css';
 import {
   Nav, NavDropdown, Navbar, Container,FormControl, Form, Button
 } from 'react-bootstrap';
@@ -13,7 +14,7 @@ export default function Mynavbar() {
     </span>
   );
   return (
-    <Navbar brand={icon} bg="light" expand="lg">
+    <Navbar className="color-nav" variant="light">
         <Container>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
