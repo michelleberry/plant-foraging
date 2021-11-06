@@ -8,7 +8,7 @@ import {
 
 export default function Mynavbar() {
   return (
-    <Navbar className="color-nav" variant="dark">
+    <Navbar className="color-nav">
         <Container>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,9 +19,11 @@ export default function Mynavbar() {
                 <Nav.Link as={Link} to='social'>Social Media</Nav.Link>
                 <Nav.Link as={Link} to='plants'>Plant Database</Nav.Link>
             </Nav>
-            <Navbar.Brand as={Link} to='/'>Shrub</Navbar.Brand>
-            <img src={logo} className="App-logo-small" alt="logo" />
-            <Navbar.Brand as={Link} to='/'>Shack</Navbar.Brand>
+            <Nav className="nav-brand" as={Link} to='/'>
+              <Nav.Link>Savoury</Nav.Link>
+              <img src={logo} className="App-logo-small" alt="logo" />
+              <Nav.Link>Shrubs</Nav.Link>
+            </Nav>
             <Nav className="me-auto">
                 {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -38,7 +40,7 @@ export default function Mynavbar() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button className="nav-button" variant="outline-success">Search</Button>
             </Form>
             </Navbar.Collapse>
         </Container>
