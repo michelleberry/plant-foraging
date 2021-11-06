@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
+import{Link} from 'react-router-dom';
 import {
-  Nav, NavDropdown, Navbar, Container
+  Nav, NavDropdown, Navbar, Container,
 } from 'react-bootstrap';
 
 export default function Mynavbar() {
@@ -11,8 +12,9 @@ export default function Mynavbar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+                
+                <Nav.Link as={Link} to='cat'>Cat</Nav.Link>
+                <Nav.Link to='cat'>Link</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

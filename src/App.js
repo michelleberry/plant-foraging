@@ -1,4 +1,4 @@
-import logo from './components/plant.jfif';
+
 import './App.css';
 import Mynavbar from './components/navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
