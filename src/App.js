@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './plant.jfif';
 import './App.css';
 
 function App() {
@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>PLANT FORAGING!</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to our website :) 
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Start Eating
         </a>
       </header>
     </div>
