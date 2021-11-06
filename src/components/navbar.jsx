@@ -19,9 +19,9 @@ export default function Mynavbar() {
                 <Nav.Link as={Link} to='social'>Social Media</Nav.Link>
                 <Nav.Link as={Link} to='plants'>Plant Database</Nav.Link>
             </Nav>
-            <Navbar.Brand as={Link} to='/'>Shrub</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'>Savoury</Navbar.Brand>
             <img src={logo} className="App-logo-small" alt="logo" />
-            <Navbar.Brand as={Link} to='/'>Shack</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'>Shrubs</Navbar.Brand>
             <Nav className="me-auto">
                 {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
