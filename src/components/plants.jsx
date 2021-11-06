@@ -6,6 +6,7 @@ import './plant.css'
 
 function DisplayPlants() {
    return standard_plants.map(plant => {
+      var routestr = '/plantdetail' + plant.name
       return (
            <div class='container'>
                <Card style={{ width: '18rem' }}>
@@ -15,7 +16,7 @@ function DisplayPlants() {
                      <Card.Text>
                         {plant.description}
                      </Card.Text>
-                     <Button as={Link} to='plantdetail:29' variant="primary">Learn More</Button>
+                     <Button as={Link} to={routestr} variant="primary">Learn More</Button>
                   </Card.Body>
                </Card>
            </div>
