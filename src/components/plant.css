@@ -1,0 +1,17 @@
+.color-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.h1-nice {
+    margin: 50px;
+    align-items: left;
+}
+
+body {
+    background-color: #545E46;
+    height: 100%;
+    width: 100%;
+}

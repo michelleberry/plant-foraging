@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './plant.jfif';
+import logo from './logoplant.png';
 
 export default function Home() {
    return (
