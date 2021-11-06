@@ -1,28 +1,14 @@
-import logo from './plant.jfif';
+import logo from './components/plant.jfif';
 import './App.css';
-import Mynavbar from './navbar.jsx'
+import Mynavbar from './components/navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Main from './components/main.jsx'
 
 function App() {
   return (
     <div className="App">
       <Mynavbar></Mynavbar>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>PLANT FORAGING!</h1>
-        <p>
-          Welcome to our website :) 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Start Eating
-        </a>
-      </header>
+      <Main></Main>
     </div>
   );
 }
