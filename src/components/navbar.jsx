@@ -1,12 +1,13 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
+import './navbar.css';
 import {
   Nav, NavDropdown, Navbar, Container,FormControl, Form, Button
 } from 'react-bootstrap';
 
 export default function Mynavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="color-nav" variant="light">
         <Container>
             <Navbar.Brand as={Link} to='/'>PLAAAANTS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
