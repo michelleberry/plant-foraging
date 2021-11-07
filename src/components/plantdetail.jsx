@@ -1,13 +1,14 @@
 import {useParams} from 'react-router-dom';
 import './plantdetail.css';
+import icon from './info-icon.png';
 
 import { standard_plants } from '../models/plant-model';
 import Plant from '../models/plant-model';
 
 function something(warning){
     return (
-        <div class="warning">
-            <p>{warning}</p>
+        <div>
+            <p class="warning"><img src={icon} className="App-icon-image" alt="icon" />{warning}</p>
         </div>
     );
 }
@@ -20,14 +21,16 @@ export default function PlantDetail() {
                 <div className="color-div">
                     {plant.warnings.map(warning => something(warning))}
                    <h2 className="h1-nice">{plant.name}</h2>
-                   <h3>{plant.benefits}</h3>
+                   <h3>General Information:</h3>
+                   <p>{plant.description}</p>
+                   <h3>What is Edible:</h3>
+                   <p>{plant.description}</p>
+                   <h3>Health Benefits:</h3>
+                   <p>{plant.description}</p>
+                   <h3>How to Harvest:</h3>
+                   <p>{plant.description}</p>
                 </div>
              );
-        } else {
-            return <p></p>;
         }
-        
-     });
-
-    
- }
+    });
+}
