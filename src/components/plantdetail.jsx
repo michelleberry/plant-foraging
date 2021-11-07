@@ -1,9 +1,7 @@
 import {useParams} from 'react-router-dom';
 import './plantdetail.css';
 import icon from './info-icon.png';
-
 import { standard_plants } from '../models/plant-model';
-import Plant from '../models/plant-model';
 
 function something(warning){
     return (

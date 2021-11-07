@@ -1,4 +1,3 @@
-
 export class Plant {
     name;
     season;
