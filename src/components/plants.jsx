@@ -3,6 +3,7 @@ import { Form, Button, Card } from 'react-bootstrap'
 import{Link} from 'react-router-dom';
 import { standard_plants } from '../models/plant-model';
 import './plant.css'
+import pic from './logoplant.png'
 
 function Dlants() {
    return standard_plants.map(plant => {
@@ -10,6 +11,7 @@ function Dlants() {
       return (
            <div class='container'>
                <Card style={{ width: '18rem' }}>
+               <img class="card-img-top" src={pic} ></img>
                   {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                   <Card.Body>
                      <Card.Title>{plant.name}</Card.Title>
