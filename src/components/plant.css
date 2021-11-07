@@ -17,3 +17,37 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.card-title {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    background-color: #76704C;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn.btn-primary {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1F2D16;
+    border-style: none;
+}

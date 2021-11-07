@@ -9,14 +9,14 @@ function Dlants() {
       var routestr = '/plantdetail' + plant.name
       return (
            <div class='container'>
-               <Card style={{ width: '18rem' }}>
+               <Card class="card">
                   {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                   <Card.Body>
-                     <Card.Title>{plant.name}</Card.Title>
-                     <Card.Text>
+                     <Card.Title class="card-title">{plant.name}</Card.Title>
+                     <Card.Text class="card-text">
                         {plant.description}
                      </Card.Text>
-                     <Button as={Link} to={routestr} variant="primary">Learn More</Button>
+                     <Button class="card-button" as={Link} to={routestr} variant="primary">Learn More</Button>
                   </Card.Body>
                </Card>
            </div>
