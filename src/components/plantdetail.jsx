@@ -24,11 +24,11 @@ export default function PlantDetail() {
                    <h3>General Information:</h3>
                    <p>{plant.description}</p>
                    <h3>What is Edible:</h3>
-                   <p>{plant.description}</p>
+                   <p>{plant.eat}</p>
                    <h3>Health Benefits:</h3>
-                   <p>{plant.description}</p>
+                   <p>{plant.benefits}</p>
                    <h3>How to Harvest:</h3>
-                   <p>{plant.description}</p>
+                   <p>{plant.harvest}</p>
                 </div>
              );
         }
