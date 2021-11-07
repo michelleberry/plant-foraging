@@ -26,3 +26,9 @@
     background-color: #1F2D16;
     border-style: none;
 }
+
+#basic{
+    text-align: left;
+    font-size: large;
+    font-weight: 20px;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import './socials.css';
 
 export default function Socials() {
    return (
       <div>
-         <h2>socile medias</h2>
+         <h2>The Garden Center</h2>
       </div>
    );
 }

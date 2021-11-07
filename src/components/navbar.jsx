@@ -14,7 +14,7 @@ export default function Mynavbar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             
-            <Nav className="me-auto">
+            <Nav className="me-auto" id="basic">
                 <Nav.Link as={Link} to='about'>About</Nav.Link>
                 <Nav.Link as={Link} to='social'>Social Media</Nav.Link>
                 <Nav.Link as={Link} to='plants'>Plant Database</Nav.Link>
