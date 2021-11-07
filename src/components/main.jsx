@@ -10,7 +10,7 @@ import PlantDetail from './plantdetail.jsx'
 const Main = () => {
   return (
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path = '/' element={<Home/>}></Route>
+      <Route exact path = '/' element={<About/>}></Route>
       <Route exact path='/social' element={<Socials/>}></Route>
       <Route exact path='/about' element={<About/>}></Route>
       <Route exact path='/plants' element={<Plants/>}></Route>
