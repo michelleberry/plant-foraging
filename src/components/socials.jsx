@@ -9,7 +9,7 @@ export default function Socials() {
             <p class="sm-p">Ideas we had:</p>
             <ul>
                <li>Way for users to interact, share educational information, plan events, etc.</li>
-               <li>Users could make posts under specific forums such as General, Community Gardens, Learn About Plants, Events, etc.</li>
+               <li>Users could make posts under specific forums such as General, Community Gardens, Learn About Plants, Recipes, Events, etc.</li>
                <li>Posts could have tags for locations, species of plants, and seasons to make post searches easier.</li>
             </ul>
          </div>
