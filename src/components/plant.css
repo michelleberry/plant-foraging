@@ -7,9 +7,14 @@
 }
 
 .h1-nice {
-    margin: 50px;
     align-items: left;
-    color:aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(236, 229, 220);
+    border-style: none;
+    border-radius: 4px;
+
+    background-color: rgba(187, 111, 61, 0);
 }
 
 body {
