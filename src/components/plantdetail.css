@@ -1,8 +1,26 @@
 .warning {
     background-color: rgb(235, 125, 125);
+    width: 60%;
+    color: white;
     padding: 10px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
+    border-radius: 10px;
+}
+
+.plant-text {
+    color:white;
+    font-family: 'Roboto', sans-serif; 
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: large;
+    text-align: center;
+    border-style: hidden;
+    background-color: rgba(243, 243, 243, 0.589);
+    border-radius: 6px;
 }

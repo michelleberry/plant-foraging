@@ -20,13 +20,13 @@ export default function PlantDetail() {
                     {plant.warnings.map(warning => something(warning))}
                    <h2 className="h1-nice">{plant.name}</h2>
                    <h3>General Information:</h3>
-                   <p>{plant.description}</p>
+                   <p class="plant-text">{plant.description}</p>
                    <h3>What is Edible:</h3>
-                   <p>{plant.eat}</p>
+                   <p class="plant-text">{plant.eat}</p>
                    <h3>Health Benefits:</h3>
-                   <p>{plant.benefits}</p>
+                   <p class="plant-text">{plant.benefits}</p>
                    <h3>How to Harvest:</h3>
-                   <p>{plant.harvest}</p>
+                   <p class="plant-text">{plant.harvest}</p>
                 </div>
              );
         }
