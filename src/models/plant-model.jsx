@@ -31,6 +31,12 @@ export const standard_plants = [
                 "Make sure to harvest from locations where they are not treated with chemicals. We recommend avoiding areas near freeways or public parks because of this.",
                 ["To the best of our knowledge, the information contained on this platform is accurate. Shrub Shack stresses that you do not eat any wild edible plants, herbs, weeds, trees or bushes until you have verified with your health professional that they are safe for you."]
                 ),
-    new Plant("Blueberry", "spring", "north america", "Blueberries are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.", 
-    "you can eat the berries but you probably shouldn't eat the stem", "sooo tastie", "she b harvested", [])
+    new Plant("Blueberry",
+                "Spring", 
+                "Blueberries are found in humid northern climates.", 
+                "Blueberries are widely distributed, and part of a widespread group of perennial flowering plants with blue or purple berries.", 
+                "Only the berry on this plant is edible.", 
+                "Blueberries are low in calories but high in fiber, and vitamin C and K.", 
+                "Ripe blueberries have a deep blue colour when they are ready to be harvested.",
+                ["Looks similar to deadly plant Nightshade - be wary when harvesting and do not eat if you are ever unsure."])
 ]

@@ -22,7 +22,7 @@ h2 {
     font-size: 70px;
 }
 
-p {
+.about-text {
     color:white;
     font-family: 'Roboto', sans-serif; 
     width: 60%;
