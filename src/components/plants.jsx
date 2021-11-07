@@ -9,7 +9,7 @@ function Dlants() {
    return standard_plants.map(plant => {
       var routestr = '/plantdetail' + plant.name
       return (
-           <div class='container'>
+           <div class='container-plants'>
                <Card class="card">
                   {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                   <Card.Body>

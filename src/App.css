@@ -9,7 +9,16 @@
 }
 
 .App-logo-small {
-  height: 7vmin;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-icon-image {
+  height: 3.5vmin;
+  margin-right: 5px;
+  float: left;
+  vertical-align: middle;
+
   pointer-events: none;
 }
 
